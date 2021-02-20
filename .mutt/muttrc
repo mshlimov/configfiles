@@ -1,0 +1,23 @@
+set realname = "Mark Shlimovich"
+set from = "mark@shlim.net"
+set use_from = yes
+set envelope_from = yes
+
+set smtp_url = "smtps://mark@shlim.net@smtp.gmail.com:465/"
+set smtp_pass = ""
+set imap_user = "mark@shlim.net"
+set imap_pass = ""
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set ssl_force_tls = yes
+
+# G to get mail
+bind index G imap-fetch-mail
+set editor = "nvim"
+set charset = "utf-8"
+set record = ''
+
+set mailcap_path = ~/.mutt/mailcap
+alternative_order text/plain text/html
+macro attach 'V' "<pipe-entry>iconv -c --to-code=UTF8 > ~/.cache/mutt/mail.html<enter><shell-escape>firefox ~/.cache/mutt/mail.html<enter>"
+auto_view text/html
