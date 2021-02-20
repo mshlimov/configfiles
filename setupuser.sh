@@ -16,7 +16,7 @@ cp .tmux/.tmux.conf.local .
 echo tmux_conf_theme_left_separator_main=\'\\uE0B0\' >> ~/.tmux.conf.local
 echo tmux_conf_theme_left_separator_sub=\'\\uE0B1\' >> ~/.tmux.conf.local
 echo tmux_conf_theme_right_separator_main=\'\\uE0B2\' >> ~/.tmux.conf.local
-echo tmux_conf_theme_right_separator_main=\'\\uE0B3\' >> ~/.tmux.conf.local
+echo tmux_conf_theme_right_separator_sub=\'\\uE0B3\' >> ~/.tmux.conf.local
 
 #setup ohmyzsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
