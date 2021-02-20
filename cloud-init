@@ -1,0 +1,15 @@
+packages:
+ - ubuntu-desktop-minimal
+ - xrdp
+ - neovim
+ - nmap
+ - git
+ - python3-pip
+ - net-tools
+ - mutt
+ - links2
+ - elinks
+ - konsole
+ - zsh
+ - nodejs
+ - curl
