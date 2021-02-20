@@ -23,10 +23,10 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 #setup qmk environment
 cd ~/qmk_firmware/
-qmk setup
-qmk config user.keyboard=massdrop/ctrl
-qmk config user.keymap=mshlimov
-qmk compile
+~/.local/bin/qmk setup
+~/.local/bin/qmk config user.keyboard=massdrop/ctrl
+~/.local/bin/qmk config user.keymap=mshlimov
+~/.local/bin/qmk compile
 
 #upgrade thunderbird to the latest version
 sudo add-apt-repository -y ppa:ubuntu-mozilla-daily/ppa
