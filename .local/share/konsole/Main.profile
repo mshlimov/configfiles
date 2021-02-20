@@ -1,8 +1,8 @@
 [Appearance]
 AntiAliasFonts=true
 BoldIntense=true
-ColorScheme=Linux
-Font=Fira Code,10,-1,5,50,0,0,0,0,0
+ColorScheme=WhiteOnBlack
+Font=UbuntuMono Nerd Font Mono,12,-1,5,50,0,0,0,0,0
 LineSpacing=1
 UseFontLineChararacters=false
 
@@ -12,12 +12,16 @@ CustomCursorColor=170,0,0
 UseCustomCursorColor=true
 
 [General]
-Command=bash
+Command=/bin/zsh
 DimWhenInactive=false
 Name=Main
 Parent=FALLBACK/
 TerminalCenter=false
 TerminalMargin=1
+
+[Interaction Options]
+AutoCopySelectedText=true
+MiddleClickPasteMode=1
 
 [Terminal Features]
 BlinkingCursorEnabled=true
