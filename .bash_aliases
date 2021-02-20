@@ -10,9 +10,9 @@ alias clean='echo -n "Really clean this directory?";
 	fi'
 alias h='history'
 alias j="jobs -l"
-alias l="ls -l "
-alias ll="ls -l"
-alias ls="ls -F"
+alias l="ls -l --color"
+alias ll="ls -l --color"
+alias ls="ls -F --color"
 alias pu="pushd"
 alias po="popd"
 alias vi="nvim"

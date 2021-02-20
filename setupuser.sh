@@ -21,6 +21,10 @@ echo tmux_conf_theme_right_separator_sub=\'\\uE0B3\' >> ~/.tmux.conf.local
 #setup ohmyzsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+#add some aliases
+echo alias vi=\"nvim\" >> ~/.oh-my-zsh/custom/aliases.zsh
+echo alias vim=\"nvim\" >> ~/.oh-my-zsh/custom/aliases.zsh
+
 #setup qmk environment
 cd ~/qmk_firmware/
 ~/.local/bin/qmk setup
