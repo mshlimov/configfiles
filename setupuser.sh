@@ -33,6 +33,3 @@ sudo add-apt-repository -y ppa:ubuntu-mozilla-daily/ppa
 sudo apt-get update
 sudo apt-get install thunderbird
 sudo apt-get upgrade
-
-
-# create a cloud-config file and provision passwords & ssh keys, mutt, thunderbird 
